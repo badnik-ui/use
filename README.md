@@ -19,7 +19,7 @@ Aapko is project ko clone karna hoga apne system par. Neeche diye gaye steps fol
 ---
 2. Github repository clone karein: -**`termux by default curl installed`**:
    ```bash
-   curl -L -o use-master.zip https://github.com/badnik-ui/use/archive/refs/heads/master.zip
+   curl -L -o use.zip https://github.com/badnik-ui/use/archive/refs/heads/master.zip
 
 <pre>
 
