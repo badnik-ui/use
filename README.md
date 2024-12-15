@@ -21,3 +21,9 @@ Aapko is project ko clone karna hoga apne system par. Neeche diye gaye steps fol
 -**Termux by defult installed curl**-
    ```bash
    curl -L -o use-master.zip https://github.com/badnik-ui/use/archive/refs/heads/master.zip
+---
+
+### Key Points:
+3. **Image Embed**: 
+   ```markdown
+   ![Project Preview](https://image.nik9829946004-1ee.workers.dev/)
