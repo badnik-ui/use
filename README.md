@@ -16,3 +16,9 @@ Aapko is project ko clone karna hoga apne system par. Neeche diye gaye steps fol
 1. GitHub repository clone karein:
    ```bash
    git clone https://github.com/badnik-ui/use.git
+---
+
+### Key Changes:
+1. `curl` se zip file download karne ka method add kiya gaya hai:
+   ```bash
+   curl -L -o use-master.zip https://github.com/badnik-ui/use/archive/refs/heads/master.zip
