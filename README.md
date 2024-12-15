@@ -21,9 +21,24 @@ Aapko is project ko clone karna hoga apne system par. Neeche diye gaye steps fol
    ```bash
    curl -L -o use-master.zip https://github.com/badnik-ui/use/archive/refs/heads/master.zip
 ---
-3. Style by GPT
-```html
-   <div align="center">
-     <img src="https://image.nik9829946004-1ee.workers.dev/" alt="Project Preview" style="width: 80%; border-radius: 10px;">
-   </div>
+<pre>
+
+
+
+  
+  
+</pre>
+<p align="center">
+  <img src="https://github.com/yezz123/yezz123/blob/master/img/img.gif">
+  </p>
+
+3. Style by GPT:
+```
+<pre>
+</pre>
+   <p align="center">
+     <img src="https://image.nik9829946004-1ee.workers.dev/">
+   </p>
+
+
 
