@@ -29,7 +29,5 @@ Aapko is project ko clone karna hoga apne system par. Neeche diye gaye steps fol
   
 </pre>
 <p align="center">
-  <img src="https://image.nik9829946004-1ee.workers.dev/">
+  <img src="https://github.com/yezz123/yezz123/blob/master/img/img.gif">
   </p>
-
-
