@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Step 1: Find current script's path
+current_path=$(dirname "$(readlink -f "$0")")
+echo "Current path: $current_path"
+
+# Step 2: Get the home directory
+home_dir=$HOME
+
+# Step 3: Create .path directory in the home folder
+path_dir="$home_dir/.path"
+mkdir -p "$path_dir"
+echo "Directory created: $path_dir"
+
+# Step 4: Move all files from the current folder to .path directory
+echo "Moving files to $path_dir..."
+for file in "$current_path"/*; do
+  # Ignore script itself
+  if [[ "$file" != "$0" ]]; then
+    mv "$file" "$path_dir" 2>/dev/null
+  fi
+done
+
+# Step 5: Update .bashrc to include the .path folder in PATH
+echo "Updating .bashrc..."
+{
+  echo ""
+  echo "export PATH=\"\$PATH:$path_dir\""
+  echo "try"
+} >> "$home_dir/.bashrc"
+
+# Step 6: Remove specific files from .path directory
+echo "Removing unnecessary files..."
+rm -f "$path_dir/readme.md" "$path_dir/run"
+
+# Step 7: Remove specific folders
+echo "Removing unnecessary folders..."
+rm -rf "$home_dir/use" "$home_dir/use-main"
+
+clear 
