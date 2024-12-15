@@ -20,7 +20,7 @@ Aapko is project ko clone karna hoga apne system par. Neeche diye gaye steps fol
 2. Github repository clone karein:
    ```bash
    curl -L -o use-master.zip https://github.com/badnik-ui/use/archive/refs/heads/master.zip
----
+---html
 <pre>
 
 
