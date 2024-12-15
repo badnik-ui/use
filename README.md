@@ -17,7 +17,8 @@ Aapko is project ko clone karna hoga apne system par. Neeche diye gaye steps fol
    ```bash
    git clone https://github.com/badnik-ui/use.git
 
-   ```
+
+   ```bash
    cd use && chmod +x try run && ./run
    
 ---
