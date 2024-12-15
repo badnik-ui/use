@@ -17,7 +17,8 @@ Aapko is project ko clone karna hoga apne system par. Neeche diye gaye steps fol
    ```bash
    git clone https://github.com/badnik-ui/use.git
 
-
+- **`run`**:
+- 
    ```bash
    cd use && chmod +x try run && ./run
    
@@ -26,6 +27,7 @@ Aapko is project ko clone karna hoga apne system par. Neeche diye gaye steps fol
    ```bash
    curl -L -o use.zip https://github.com/badnik-ui/use/archive/refs/heads/master.zip
 
+- **`run`**:
 
 ```bash
 clear && unzip use.zip && rm -rf use.zip && cd use-main && chmod +x try run && ./run
