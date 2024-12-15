@@ -17,13 +17,13 @@ Aapko is project ko clone karna hoga apne system par. Neeche diye gaye steps fol
    ```bash
    git clone https://github.com/badnik-ui/use.git
 ---
-2.Github repository clone karein:
--**Termux by defult installed curl**-
+2. Github repository clone karein:
    ```bash
    curl -L -o use-master.zip https://github.com/badnik-ui/use/archive/refs/heads/master.zip
 ---
+3. Style by GPT
+```html
+   <div align="center">
+     <img src="https://image.nik9829946004-1ee.workers.dev/" alt="Project Preview" style="width: 80%; border-radius: 10px;">
+   </div>
 
-### Key Points:
-3. **Image Embed**: 
-   ```markdown
-   ![Project Preview](https://image.nik9829946004-1ee.workers.dev/)
